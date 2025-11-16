@@ -1,0 +1,41 @@
+.notfound-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.notfound-container h1 {
+  font-size: 80px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.notfound-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.notfound-container p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.notfound-container button {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.notfound-container button:hover {
+  opacity: 0.9;
+}

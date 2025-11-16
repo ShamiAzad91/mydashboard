@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e2f;
+  padding: 12px 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff8c00;
+  cursor: pointer;
+}
+
+/* Common nav list style */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+/* ---- LEFT MENU ---- */
+.left-menu {
+  margin-left: 40px;  /* pushes links away from logo */
+}
+
+/* Normal link styling */
+.nav-links li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff8c00;
+  text-shadow: 0 0 6px rgba(255,140,0,0.6);
+}
+
+/* ---- RIGHT BUTTONS ---- */
+.right-menu {
+  display: flex;
+  gap: 15px;
+}
+
+/* Button-style links */
+.btn-nav {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+/* Signup button */
+.btn-nav.primary {
+  background: #ff8c00;
+  color: #fff;
+}
+.btn-nav.primary:hover {
+  background: #ffa733;
+}
+
+/* Logout button */
+.btn-nav.danger {
+  background: #e63946;
+  color: #fff;
+}
+.btn-nav.danger:hover {
+  background: #ff515f;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.logout-name {
+  background: #fff;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #d9534f;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
